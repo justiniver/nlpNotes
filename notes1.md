@@ -5,6 +5,23 @@
 - Using a word bank (typically 40k ~ 60k words), predicts the next word
 - Models have billions of 'parameters' (more on that later)
 
-### Text Normalization
+### Text Normalization and Tokenization
 - Stems and affixes (e.g., 'cats' where 'cat' is the stem and 's' is the affix)
 - We need to correct misspellings
+- **Problematic Words Examples**
+  - **Possession**: Finland's capital = Finland + 's + capital = 3 tokens
+  - **Contraction**: (it's = it + is) **OR** (it's = it + has)
+  - **Hyphenated terms**: Hewlett-Packard, state-of-the-art
+  - **Words with variants**: lowercase, lower case, lower-case
+- Tokenizing words in languages that do not use whitespace (e.g., Chinese, Japanese) 
+need to use more complex processes to tokenize
+- **Lemmatization** is the process of reducing inflections or variant forms to the base form.
+  - am, are, is = be
+  - bike, bikes, bike's, bikes' = bike
+- **Morphology** is the idea that words are build from smaller units (i.e., stems and affixes)
+  - Inflectional Affix Examples
+    - cat to cats
+    - climb to climbed
+  - Derivational Affix Examples
+    - act to react
+    - act to actor
