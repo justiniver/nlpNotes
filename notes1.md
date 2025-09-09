@@ -14,7 +14,7 @@
   - **Hyphenated terms**: Hewlett-Packard, state-of-the-art
   - **Words with variants**: lowercase, lower case, lower-case
 - Tokenizing words in languages that do not use whitespace (e.g., Chinese, Japanese) 
-need to use more complex processes to tokenize
+need to use more complex processes to tokenize (max matching algorithm)
 - **Lemmatization** is the process of reducing inflections or variant forms to the base form.
   - am, are, is = be
   - bike, bikes, bike's, bikes' = bike
