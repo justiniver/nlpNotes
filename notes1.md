@@ -25,3 +25,18 @@ need to use more complex processes to tokenize (max matching algorithm)
   - Derivational Affix Examples
     - act to react
     - act to actor
+- **Stemming** a faster and dumber solution (compared to lemmatization) where
+we just reduce words to their stems
+  - Defined as crude affix removal (e.g., strip suffix get base form)
+- **Case Folding** is normalizing case (uppercase and lowercase) so that 'The' counts
+the same as 'the'
+
+### Semantics
+- This is the part of linguistics that deals with meanings, which are called 'senses' in NLP.
+- Synonyms map to the same 'sense' such as filbert and hazelnut.
+- **More Examples**
+  - Water vs H20
+  - Couch vs Sofa
+  - Hi vs Hello
+- The **Linguistic Principle of Contrast** is the idea that even if they are synonyms 
+the difference in form means a difference in meaning.
