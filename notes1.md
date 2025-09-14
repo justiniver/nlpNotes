@@ -1,5 +1,3 @@
-# NLP Notes
-
 ### LLMs
 - LLMs works through classification
 - Using a word bank (typically 40k ~ 60k words), predicts the next word
