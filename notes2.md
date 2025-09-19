@@ -23,3 +23,8 @@
 - We can model word prediction as assessing conditional 
 probability of a word given the prefix 
 - We can calculate these types of probabilities from counts in a large corpus
+- A bigram language model just means n = 2
+
+### Probability
+- The chain rule for probabilities looks like 
+P(A, B, C, D) = P(A) * P(B | A) * P(C | A, B) * P(D | A, B, C)
