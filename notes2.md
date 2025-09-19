@@ -16,3 +16,10 @@
 - Heap's Law states that **|V|** = kN^(beta) where k ~ 0.7
   - So, the vocab size for a given text goes up significantly faster than sqrt(N)
 
+### Misc
+- **n-gram**: means sequence of length n
+- P(hard | the homework was) = count(the homework was hard) / count(the homework was)
+- **prefix**: all previous words in the sequence
+- We can model word prediction as assessing conditional 
+probability of a word given the prefix 
+- We can calculate these types of probabilities from counts in a large corpus
