@@ -16,15 +16,20 @@
 - Heap's Law states that **|V|** = kN^(beta) where k ~ 0.7
   - So, the vocab size for a given text goes up significantly faster than sqrt(N)
 
-### Misc
+### Probability
 - **n-gram**: means sequence of length n
-- P(hard | the homework was) = count(the homework was hard) / count(the homework was)
+- P(hard | the homework was) = count('the homework was hard') / count('the homework was')
+- **|V|**: represents the size of the vocabulary
+- **Laplace Smoothing**: Add one to numerator and add |V| to denominator
 - **prefix**: all previous words in the sequence
 - We can model word prediction as assessing conditional 
 probability of a word given the prefix 
 - We can calculate these types of probabilities from counts in a large corpus
 - A bigram language model just means n = 2
-
-### Probability
 - The chain rule for probabilities looks like 
 P(A, B, C, D) = P(A) * P(B | A) * P(C | A, B) * P(D | A, B, C)
+- Example of bigram probabilities. This is our training data with 14 tokens and 10 vocabulary size:
+  - I am Sam
+  - Sam I am
+  - I do not like green eggs and ham
+    - P('I', 'am', 'Sam') = P('I') * P('am' | 'I') * P('Sam' | 'am')
