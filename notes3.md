@@ -15,3 +15,7 @@
 - **Perplexity** is used as a measure of "surprise"
   - If perplexity of a language model is higher it means less likely to have generated the sequence (and vice versa)
 - PP(W) = (# of char appearance/# of tokens)*(-1/N)
+
+### Precision and Recall
+- Precision = tp / (tp + fp)
+- Recall = tp / (tp + fn)
