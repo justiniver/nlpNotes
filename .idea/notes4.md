@@ -4,3 +4,4 @@
 - Input layer, hidden layers, output layer
 
 ### Evaluating POS taggers
+- words
