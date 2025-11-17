@@ -2,6 +2,8 @@
 - Bunch of classifiers
 - Non-linearity (sigmoid/logistic, tabk, relu)
 - Input layer, hidden layers, output layer
+- Essentially just a bunch of fancy functions (sigmoid, ReLU, etc...), 
+and we use gradient descent/newtons method to find the weights
 
 ### Evaluating POS taggers
 - words
