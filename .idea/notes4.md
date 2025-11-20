@@ -5,6 +5,3 @@
 - Essentially just a bunch of fancy functions (sigmoid, ReLU, etc...), 
 and we use gradient descent/newtons method to find the weights
 - Forward pass -> Backward pass -> Gradient descent to update weights
-
-### Evaluating POS taggers
-- words
